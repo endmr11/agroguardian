@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B00B569A2DCBB96D00500362 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = B00B56992DCBB96D00500362 /* FirebaseCore */; };
+		B00B569C2DCBB9E300500362 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = B00B569B2DCBB9E300500362 /* FirebaseMessaging */; };
+		B0304CE82DCABD7E00A079F8 /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = B0304CE72DCABD7E00A079F8 /* RiveRuntime */; };
+		B08CAC162DCC00A100DDE783 /* agroguardian_app_ios_watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B08CAC0C2DCC00A000DDE783 /* agroguardian_app_ios_watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B0F7284C2DCA8C63002BB57E /* CocoaMQTT in Frameworks */ = {isa = PBXBuildFile; productRef = B0F7284B2DCA8C63002BB57E /* CocoaMQTT */; };
+		B0F7284E2DCA8C63002BB57E /* CocoaMQTTWebSocket in Frameworks */ = {isa = PBXBuildFile; productRef = B0F7284D2DCA8C63002BB57E /* CocoaMQTTWebSocket */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B08CAC142DCC00A100DDE783 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B00157DE2DCA88FF0074562B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B08CAC0B2DCC00A000DDE783;
+			remoteInfo = "agroguardian_app_ios_watch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B08CAC172DCC00A100DDE783 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B08CAC162DCC00A100DDE783 /* agroguardian_app_ios_watch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B00157E62DCA88FF0074562B /* agroguardian_app_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = agroguardian_app_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0304CE92DCABF2A00A079F8 /* windmill.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = windmill.riv; sourceTree = "<group>"; };
+		B08CAC0C2DCC00A000DDE783 /* agroguardian_app_ios_watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "agroguardian_app_ios_watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B00157E82DCA88FF0074562B /* agroguardian_app_ios */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = agroguardian_app_ios;
+			sourceTree = "<group>";
+		};
+		B08CAC0D2DCC00A000DDE783 /* agroguardian_app_ios_watch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "agroguardian_app_ios_watch Watch App";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B00157E32DCA88FF0074562B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0F7284E2DCA8C63002BB57E /* CocoaMQTTWebSocket in Frameworks */,
+				B0F7284C2DCA8C63002BB57E /* CocoaMQTT in Frameworks */,
+				B00B569C2DCBB9E300500362 /* FirebaseMessaging in Frameworks */,
+				B00B569A2DCBB96D00500362 /* FirebaseCore in Frameworks */,
+				B0304CE82DCABD7E00A079F8 /* RiveRuntime in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B08CAC092DCC00A000DDE783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B00157DD2DCA88FF0074562B = {
+			isa = PBXGroup;
+			children = (
+				B00157E82DCA88FF0074562B /* agroguardian_app_ios */,
+				B08CAC0D2DCC00A000DDE783 /* agroguardian_app_ios_watch Watch App */,
+				B00B56982DCBB96D00500362 /* Frameworks */,
+				B00157E72DCA88FF0074562B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B00157E72DCA88FF0074562B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B00157E62DCA88FF0074562B /* agroguardian_app_ios.app */,
+				B0304CE92DCABF2A00A079F8 /* windmill.riv */,
+				B08CAC0C2DCC00A000DDE783 /* agroguardian_app_ios_watch Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B00B56982DCBB96D00500362 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B00157E52DCA88FF0074562B /* agroguardian_app_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B00157F12DCA89000074562B /* Build configuration list for PBXNativeTarget "agroguardian_app_ios" */;
+			buildPhases = (
+				B00157E22DCA88FF0074562B /* Sources */,
+				B00157E32DCA88FF0074562B /* Frameworks */,
+				B00157E42DCA88FF0074562B /* Resources */,
+				B08CAC172DCC00A100DDE783 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B08CAC152DCC00A100DDE783 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B00157E82DCA88FF0074562B /* agroguardian_app_ios */,
+			);
+			name = agroguardian_app_ios;
+			packageProductDependencies = (
+				B0F7284B2DCA8C63002BB57E /* CocoaMQTT */,
+				B0F7284D2DCA8C63002BB57E /* CocoaMQTTWebSocket */,
+				B0304CE72DCABD7E00A079F8 /* RiveRuntime */,
+				B00B56992DCBB96D00500362 /* FirebaseCore */,
+				B00B569B2DCBB9E300500362 /* FirebaseMessaging */,
+			);
+			productName = agroguardian_app_ios;
+			productReference = B00157E62DCA88FF0074562B /* agroguardian_app_ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B08CAC0B2DCC00A000DDE783 /* agroguardian_app_ios_watch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B08CAC1A2DCC00A100DDE783 /* Build configuration list for PBXNativeTarget "agroguardian_app_ios_watch Watch App" */;
+			buildPhases = (
+				B08CAC082DCC00A000DDE783 /* Sources */,
+				B08CAC092DCC00A000DDE783 /* Frameworks */,
+				B08CAC0A2DCC00A000DDE783 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B08CAC0D2DCC00A000DDE783 /* agroguardian_app_ios_watch Watch App */,
+			);
+			name = "agroguardian_app_ios_watch Watch App";
+			packageProductDependencies = (
+			);
+			productName = "agroguardian_app_ios_watch Watch App";
+			productReference = B08CAC0C2DCC00A000DDE783 /* agroguardian_app_ios_watch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B00157DE2DCA88FF0074562B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					B00157E52DCA88FF0074562B = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					B08CAC0B2DCC00A000DDE783 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = B00157E12DCA88FF0074562B /* Build configuration list for PBXProject "agroguardian_app_ios" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B00157DD2DCA88FF0074562B;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B00157FC2DCA8BA80074562B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				B0F7284A2DCA8C63002BB57E /* XCRemoteSwiftPackageReference "CocoaMQTT" */,
+				B0304CE62DCABD7E00A079F8 /* XCRemoteSwiftPackageReference "rive-ios" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B00157E72DCA88FF0074562B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B00157E52DCA88FF0074562B /* agroguardian_app_ios */,
+				B08CAC0B2DCC00A000DDE783 /* agroguardian_app_ios_watch Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B00157E42DCA88FF0074562B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B08CAC0A2DCC00A000DDE783 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B00157E22DCA88FF0074562B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B08CAC082DCC00A000DDE783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B08CAC152DCC00A100DDE783 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B08CAC0B2DCC00A000DDE783 /* agroguardian_app_ios_watch Watch App */;
+			targetProxy = B08CAC142DCC00A100DDE783 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B00157EF2DCA89000074562B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = TU75X8S2M6;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B00157F02DCA89000074562B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = TU75X8S2M6;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B00157F22DCA89000074562B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TU75X8S2M6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "agroguardian-app-ios-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.agroguardian-app-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B00157F32DCA89000074562B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TU75X8S2M6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "agroguardian-app-ios-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.agroguardian-app-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B08CAC182DCC00A100DDE783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TU75X8S2M6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = agroguardian_app_ios_watch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.example.agroguardian-app-ios";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.agroguardian-app-ios.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		B08CAC192DCC00A100DDE783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TU75X8S2M6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = agroguardian_app_ios_watch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.example.agroguardian-app-ios";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.agroguardian-app-ios.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B00157E12DCA88FF0074562B /* Build configuration list for PBXProject "agroguardian_app_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00157EF2DCA89000074562B /* Debug */,
+				B00157F02DCA89000074562B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B00157F12DCA89000074562B /* Build configuration list for PBXNativeTarget "agroguardian_app_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00157F22DCA89000074562B /* Debug */,
+				B00157F32DCA89000074562B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B08CAC1A2DCC00A100DDE783 /* Build configuration list for PBXNativeTarget "agroguardian_app_ios_watch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B08CAC182DCC00A100DDE783 /* Debug */,
+				B08CAC192DCC00A100DDE783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B00157FC2DCA8BA80074562B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.12.0;
+			};
+		};
+		B0304CE62DCABD7E00A079F8 /* XCRemoteSwiftPackageReference "rive-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rive-app/rive-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.8.1;
+			};
+		};
+		B0F7284A2DCA8C63002BB57E /* XCRemoteSwiftPackageReference "CocoaMQTT" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kindredgroup/CocoaMQTT";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B00B56992DCBB96D00500362 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B00157FC2DCA8BA80074562B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		B00B569B2DCBB9E300500362 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B00157FC2DCA8BA80074562B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		B0304CE72DCABD7E00A079F8 /* RiveRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0304CE62DCABD7E00A079F8 /* XCRemoteSwiftPackageReference "rive-ios" */;
+			productName = RiveRuntime;
+		};
+		B0F7284B2DCA8C63002BB57E /* CocoaMQTT */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0F7284A2DCA8C63002BB57E /* XCRemoteSwiftPackageReference "CocoaMQTT" */;
+			productName = CocoaMQTT;
+		};
+		B0F7284D2DCA8C63002BB57E /* CocoaMQTTWebSocket */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0F7284A2DCA8C63002BB57E /* XCRemoteSwiftPackageReference "CocoaMQTT" */;
+			productName = CocoaMQTTWebSocket;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B00157DE2DCA88FF0074562B /* Project object */;
+}

@@ -1,0 +1,41 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/agrodb
+    username: postgres
+    password: postgres
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+  mqtt:
+    broker-url: tcp://localhost:1883
+    client-id: spring-boot-server
+    topics:
+      telemetry: agro/devices/+/telemetry
+      command: agro/devices/+/commands
+    qos: 1
+
+  influxdb:
+    url: http://localhost:8086
+    log-level: BODY
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: agroguardian
+    password: agroguardian123
+    listener:
+      simple:
+        retry:
+          enabled: true
+          initial-interval: 1000
+          max-attempts: 3
+          max-interval: 10000
+          multiplier: 2.0
