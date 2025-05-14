@@ -1,19 +1,22 @@
 # AgroGuardian 🌱🚀
 
-Akıllı tarım uygulamaları için geliştirilmiş, uçtan uca izleme ve otomasyon sağlayan bir sistem.
-
-## Özellikler
-
-- **Gerçek zamanlı sensör verisi takibi** (sıcaklık, nem, toprak nemi)
-- ** Sulama ve Havalandırma kontrolü**
-- **iOS (Apple Watch desteği) ve Android için native mobil uygulamalar**
-- **Bildirim altyapısı (Firebase)**
-- **Konteyner tabanlı altyapı (Docker Compose)**
-- **Python tabanlı IoT emülatörleri (Automate & Observer)**
+A smart agriculture system providing end-to-end monitoring and automation for modern farming practices.
 
 ---
 
-## Mimarinin Genel Görünümü
+## 🚀 Features
+
+- **Real-time sensor data tracking** (temperature, humidity, soil moisture)
+- **Irrigation and ventilation control**
+- **Native mobile apps for iOS (Apple Watch support) and Android**
+- **Notification system using Firebase**
+- **Containerized infrastructure (Docker Compose)**
+- **Python-based IoT emulators (Automate & Observer)**
+
+---
+
+## 🧭 Architecture Overview
+
 
 ```
 +-------------------+      MQTT      +-------------------+      REST      +-------------------+
@@ -32,35 +35,54 @@ Akıllı tarım uygulamaları için geliştirilmiş, uçtan uca izleme ve otomas
 
 ---
 
-## Kullanılan Teknolojiler
 
-- **Backend:** Java 17, Spring Boot, REST API, MQTT, RabbitMQ, PostgreSQL, InfluxDB, Firebase
-- **Mobil:**  
-  - iOS: Swift, SwiftUI, Apple Watch, Firebase  
-  - Android: Kotlin, Jetpack Compose, Firebase
-- **IoT Emülatörleri:** Python, paho-mqtt
-- **Altyapı:** Docker Compose, Mosquitto (MQTT broker)
+## 🛠 Technologies Used
+
+### Backend
+- Java 17
+- Spring Boot
+- REST API
+- MQTT (Mosquitto)
+- RabbitMQ
+- PostgreSQL
+- InfluxDB
+- Firebase
+
+### Mobile Applications
+- **iOS:** Swift, SwiftUI, Apple Watch support, Firebase
+- **Android:** Kotlin, Jetpack Compose, Firebase
+
+### IoT Emulators
+- Python 3.x
+- `paho-mqtt` library
+
+### Infrastructure
+- Docker & Docker Compose
 
 ---
 
-## Hızlı Başlangıç
+## ⚡️ Getting Started
 
-### Gereksinimler
+### Prerequisites
+
 - Docker & Docker Compose
 - Java 17
 - Python 3.x
-- Android Studio / Xcode (mobil geliştirme için)
+- Android Studio / Xcode (for mobile development)
 
-### Servisleri Başlatmak
+---
+
+### 🔧 Launch Services
+
 
 ```bash
 cd agroguardian_backend
 docker-compose up -d
 ```
 
-### IoT Emülatörlerini Çalıştırmak
+### Running IoT Emulators
 
-Her emülatör için ayrı terminalde:
+In a separate terminal for each emulator:
 
 ```bash
 # Automate
@@ -72,14 +94,14 @@ cd adroguardian_observer
 python main.py
 ```
 
-### Mobil Uygulamalar
+### Mobile Applications
 
-- **iOS:** `agroguardian_app_ios` dizinini Xcode ile açıp çalıştırabilirsiniz.
-- **Android:** `agroguardian_app_android` dizinini Android Studio ile açıp çalıştırabilirsiniz.
+- **iOS:** You can open and run the `agroguardian_app_ios` directory with Xcode.
+- **Android:** You can open and run the `agroguardian_app_android` directory with Android Studio.
 
 ---
 
-## Katkı ve Lisans
+## Contribution and License
 
-Katkıda bulunmak isterseniz lütfen bir issue açın veya pull request gönderin.  
-Bu proje MIT lisansı ile lisanslanmıştır.
+If you would like to contribute, please open an issue or submit a pull request.
+This project is licensed under the MIT license.
